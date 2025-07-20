@@ -9,67 +9,67 @@ A comprehensive guide to systematic feature development using the three-phase sp
 
 ## 🧭 Navigation Guide
 
-**New to spec-driven development?** → Start with [Methodology Overview](methodology/README.md)  
-**Ready to create your first spec?** → Jump to [Process Guide](process/README.md)  
-**Looking for examples?** → Browse [Examples & Case Studies](examples/README.md)  
-**Need templates?** → Get [Ready-to-Use Templates](templates/README.md)  
-**Working with AI?** → Learn [Prompting Strategies](prompting/README.md)
+**New to spec-driven development?** → Start with [Methodology Overview](spec-process-guide/methodology/README.md)  
+**Ready to create your first spec?** → Jump to [Process Guide](spec-process-guide/process/README.md)  
+**Looking for examples?** → Browse [Examples & Case Studies](spec-process-guide/examples/README.md)  
+**Need templates?** → Get [Ready-to-Use Templates](spec-process-guide/templates/README.md)  
+**Working with AI?** → Learn [Prompting Strategies](spec-process-guide/prompting/README.md)
 
-**📍 Need detailed navigation?** → See [Complete Navigation Index](NAVIGATION.md) - Find content by role, problem, or learning style
+**📍 Need detailed navigation?** → See [Complete Navigation Index](spec-process-guide/NAVIGATION.md) - Find content by role, problem, or learning style
 
 ---
 
 ## 📚 Complete Table of Contents
 
-### 🎯 [Methodology](methodology/README.md)
+### 🎯 [Methodology](spec-process-guide/methodology/README.md)
 Learn the foundational concepts and philosophy behind spec-driven development
-- [Overview](methodology/overview.md) - Core concepts and benefits
-- [Philosophy](methodology/philosophy.md) - Why spec-driven development works
-- [When to Use](methodology/when-to-use.md) - Decision framework and scenarios
+- [Overview](spec-process-guide/methodology/overview.md) - Core concepts and benefits
+- [Philosophy](spec-process-guide/methodology/philosophy.md) - Why spec-driven development works
+- [When to Use](spec-process-guide/methodology/when-to-use.md) - Decision framework and scenarios
 
-### 📋 [Process Guide](process/README.md)
+### 📋 [Process Guide](spec-process-guide/process/README.md)
 Step-by-step walkthrough of the three-phase workflow
-- [Requirements Phase](process/requirements-phase.md) - Gathering and structuring requirements using EARS
-- [Design Phase](process/design-phase.md) - Creating comprehensive design documents
-- [Tasks Phase](process/tasks-phase.md) - Breaking down design into actionable coding tasks
-- [Workflow Diagrams](process/workflow-diagrams.md) - Visual process flows and decision points
+- [Requirements Phase](spec-process-guide/process/requirements-phase.md) - Gathering and structuring requirements using EARS
+- [Design Phase](spec-process-guide/process/design-phase.md) - Creating comprehensive design documents
+- [Tasks Phase](spec-process-guide/process/tasks-phase.md) - Breaking down design into actionable coding tasks
+- [Workflow Diagrams](spec-process-guide/process/workflow-diagrams.md) - Visual process flows and decision points
 
-### 🧠 [AI Reasoning](ai-reasoning/README.md)
+### 🧠 [AI Reasoning](spec-process-guide/ai-reasoning/README.md)
 Insights into decision-making frameworks and thought processes
-- [Decision Frameworks](ai-reasoning/decision-frameworks.md) - How choices are evaluated
-- [Thought Processes](ai-reasoning/thought-processes.md) - Analysis and prioritization methods
-- [Examples](ai-reasoning/examples.md) - Real reasoning chains and decision points
+- [Decision Frameworks](spec-process-guide/ai-reasoning/decision-frameworks.md) - How choices are evaluated
+- [Thought Processes](spec-process-guide/ai-reasoning/thought-processes.md) - Analysis and prioritization methods
+- [Examples](spec-process-guide/ai-reasoning/examples.md) - Real reasoning chains and decision points
 
-### 💬 [Prompting Strategies](prompting/README.md)
+### 💬 [Prompting Strategies](spec-process-guide/prompting/README.md)
 Effective communication techniques for AI collaboration
-- [Strategies](prompting/strategies.md) - Core prompting approaches
-- [Templates](prompting/templates.md) - Ready-to-use prompt patterns
-- [Best Practices](prompting/best-practices.md) - Tips for clear, effective communication
+- [Strategies](spec-process-guide/prompting/strategies.md) - Core prompting approaches
+- [Templates](spec-process-guide/prompting/templates.md) - Ready-to-use prompt patterns
+- [Best Practices](spec-process-guide/prompting/best-practices.md) - Tips for clear, effective communication
 
-### ⚡ [Execution Guide](execution/README.md)
+### ⚡ [Execution Guide](spec-process-guide/execution/README.md)
 Practical guidance for implementing features from specs
-- [Implementation Guide](execution/implementation-guide.md) - Step-by-step execution strategies
-- [Quality Assurance](execution/quality-assurance.md) - Testing and validation techniques
-- [Troubleshooting](execution/troubleshooting.md) - Common issues and solutions
+- [Implementation Guide](spec-process-guide/execution/implementation-guide.md) - Step-by-step execution strategies
+- [Quality Assurance](spec-process-guide/execution/quality-assurance.md) - Testing and validation techniques
+- [Troubleshooting](spec-process-guide/execution/troubleshooting.md) - Common issues and solutions
 
-### 📚 [Resources](resources/README.md)
+### 📚 [Resources](spec-process-guide/resources/README.md)
 Curated references and learning materials
-- [Standards](resources/standards.md) - EARS and industry standards
-- [Tools](resources/tools.md) - Recommended tools and integrations
-- [Further Reading](resources/further-reading.md) - Additional learning resources
+- [Standards](spec-process-guide/resources/standards.md) - EARS and industry standards
+- [Tools](spec-process-guide/resources/tools.md) - Recommended tools and integrations
+- [Further Reading](spec-process-guide/resources/further-reading.md) - Additional learning resources
 
-### 📖 [Examples](examples/README.md)
+### 📖 [Examples](spec-process-guide/examples/README.md)
 Real-world case studies and complete spec examples
-- [Simple Feature Specs](examples/simple-feature-spec.md) - Basic feature examples
-- [Complex System Specs](examples/complex-system-spec.md) - Large system examples
-- [Case Studies](examples/case-studies.md) - Success stories and lessons learned
-- [Troubleshooting & Pitfalls](examples/troubleshooting-pitfalls.md) - Common mistakes and recovery strategies
+- [Simple Feature Specs](spec-process-guide/examples/simple-feature-spec.md) - Basic feature examples
+- [Complex System Specs](spec-process-guide/examples/complex-system-spec.md) - Large system examples
+- [Case Studies](spec-process-guide/examples/case-studies.md) - Success stories and lessons learned
+- [Troubleshooting & Pitfalls](spec-process-guide/examples/troubleshooting-pitfalls.md) - Common mistakes and recovery strategies
 
-### 📝 [Templates](templates/README.md)
+### 📝 [Templates](spec-process-guide/templates/README.md)
 Ready-to-use templates and checklists
-- [Requirements Template](templates/requirements-template.md) - EARS-formatted requirements
-- [Design Template](templates/design-template.md) - Comprehensive design structure
-- [Tasks Template](templates/tasks-template.md) - Implementation planning format
+- [Requirements Template](spec-process-guide/templates/requirements-template.md) - EARS-formatted requirements
+- [Design Template](spec-process-guide/templates/design-template.md) - Comprehensive design structure
+- [Tasks Template](spec-process-guide/templates/tasks-template.md) - Implementation planning format
 
 ---
 
@@ -77,10 +77,10 @@ Ready-to-use templates and checklists
 
 New to spec-driven development? Start here:
 
-1. **Understand the Methodology** - Read the [Overview](methodology/overview.md) to grasp core concepts
-2. **See It in Action** - Review a [Simple Feature Spec](examples/simple-feature-spec.md) example
-3. **Try It Yourself** - Use the [Requirements Template](templates/requirements-template.md) for your first spec
-4. **Get Better Results** - Apply [Prompting Strategies](prompting/strategies.md) for AI collaboration
+1. **Understand the Methodology** - Read the [Overview](spec-process-guide/methodology/overview.md) to grasp core concepts
+2. **See It in Action** - Review a [Simple Feature Spec](spec-process-guide/examples/simple-feature-spec.md) example
+3. **Try It Yourself** - Use the [Requirements Template](spec-process-guide/templates/requirements-template.md) for your first spec
+4. **Get Better Results** - Apply [Prompting Strategies](spec-process-guide/prompting/strategies.md) for AI collaboration
 
 ## Navigation Tips
 
@@ -95,23 +95,23 @@ New to spec-driven development? Start here:
 ## 🔗 Cross-References & Related Content
 
 ### By Workflow Phase
-- **Planning Phase**: [Methodology](methodology/README.md) → [Requirements](process/requirements-phase.md) → [Design](process/design-phase.md) → [Tasks](process/tasks-phase.md)
-- **Execution Phase**: [Implementation Guide](execution/implementation-guide.md) → [Quality Assurance](execution/quality-assurance.md)
-- **AI Collaboration**: [Prompting Strategies](prompting/README.md) → [AI Reasoning](ai-reasoning/README.md) → [Best Practices](prompting/best-practices.md)
+- **Planning Phase**: [Methodology](spec-process-guide/methodology/README.md) → [Requirements](spec-process-guide/process/requirements-phase.md) → [Design](spec-process-guide/process/design-phase.md) → [Tasks](spec-process-guide/process/tasks-phase.md)
+- **Execution Phase**: [Implementation Guide](spec-process-guide/execution/implementation-guide.md) → [Quality Assurance](spec-process-guide/execution/quality-assurance.md)
+- **AI Collaboration**: [Prompting Strategies](spec-process-guide/prompting/README.md) → [AI Reasoning](spec-process-guide/ai-reasoning/README.md) → [Best Practices](spec-process-guide/prompting/best-practices.md)
 
 ### By Experience Level
-- **Beginner**: [Methodology](methodology/README.md) → [Simple Examples](examples/simple-feature-spec.md) → [Templates](templates/README.md)
-- **Intermediate**: [Process Guide](process/README.md) → [Prompting Strategies](prompting/README.md) → [Case Studies](examples/case-studies.md)
-- **Advanced**: [AI Reasoning](ai-reasoning/README.md) → [Complex Examples](examples/complex-system-spec.md) → [Decision Frameworks](ai-reasoning/decision-frameworks.md)
+- **Beginner**: [Methodology](spec-process-guide/methodology/README.md) → [Simple Examples](spec-process-guide/examples/simple-feature-spec.md) → [Templates](spec-process-guide/templates/README.md)
+- **Intermediate**: [Process Guide](spec-process-guide/process/README.md) → [Prompting Strategies](spec-process-guide/prompting/README.md) → [Case Studies](spec-process-guide/examples/case-studies.md)
+- **Advanced**: [AI Reasoning](spec-process-guide/ai-reasoning/README.md) → [Complex Examples](spec-process-guide/examples/complex-system-spec.md) → [Decision Frameworks](spec-process-guide/ai-reasoning/decision-frameworks.md)
 
 ### Quick Problem Solving
-- **Unclear Requirements** → [Requirements Phase](process/requirements-phase.md) + [EARS Standards](resources/standards.md)
-- **Design Challenges** → [Design Phase](process/design-phase.md) + [AI Decision Frameworks](ai-reasoning/decision-frameworks.md)
-- **Implementation Issues** → [Implementation Guide](execution/implementation-guide.md) + [Troubleshooting](examples/troubleshooting-pitfalls.md)
-- **AI Communication Problems** → [Prompting Best Practices](prompting/best-practices.md) + [Troubleshooting](examples/troubleshooting-pitfalls.md)
+- **Unclear Requirements** → [Requirements Phase](spec-process-guide/process/requirements-phase.md) + [EARS Standards](spec-process-guide/resources/standards.md)
+- **Design Challenges** → [Design Phase](spec-process-guide/process/design-phase.md) + [AI Decision Frameworks](spec-process-guide/ai-reasoning/decision-frameworks.md)
+- **Implementation Issues** → [Implementation Guide](spec-process-guide/execution/implementation-guide.md) + [Troubleshooting](spec-process-guide/examples/troubleshooting-pitfalls.md)
+- **AI Communication Problems** → [Prompting Best Practices](spec-process-guide/prompting/best-practices.md) + [Troubleshooting](spec-process-guide/examples/troubleshooting-pitfalls.md)
 
 ---
 
 *This guide is designed to be both a learning resource and a reference manual. Jump to any section based on your current needs, or read through sequentially for comprehensive understanding.*
 
-**📍 For detailed navigation by role, problem, or learning style, see the [Complete Navigation Index](NAVIGATION.md)**
+**📍 For detailed navigation by role, problem, or learning style, see the [Complete Navigation Index](spec-process-guide/NAVIGATION.md)**
