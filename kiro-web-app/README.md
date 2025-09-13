@@ -1,139 +1,75 @@
-# Kiro 规范驱动开发指南 - Web应用
+# Kiro Specification-Driven Development Guide – Web Application
 
-这是一个现代化的Web应用，用于展示和使用Kiro规范驱动开发指南的内容。
+This is a modern web application designed to present and use the contents of the Kiro specification-driven development guide.
 
-## 功能特性
+## Features
 
-### 📚 完整的内容展示
-- **方法论概述** - 规范驱动开发的核心概念和哲学
-- **流程指南** - 三阶段开发流程的详细步骤
-- **AI推理** - AI决策框架和思维过程解析
-- **提示策略** - 与AI协作的有效沟通技巧
-- **执行指南** - 从规范到实现的实践指导
-- **资源库** - 标准、工具和学习材料
-- **示例和案例** - 真实案例和完整规范示例
-- **模板库** - 即用型模板和检查清单
+### 📚 Full Content Display
+- Methodology Overview – Core concepts and philosophy of specification-driven development
+- Process Guide – Detailed steps for the three-stage development process
+- AI Reasoning – Analysis of AI decision frameworks and thought processes
+- Prompting Strategies – Effective communication techniques for collaborating with AI
+- Execution Guide – Practical guidance from specification to implementation
+- Resource Library – Standards, tools, and learning materials
+- Examples and Cases – Real cases and complete specification samples
+- Template Library – Ready-to-use templates and checklists
 
-### 🔧 系统文档
-- **系统能力** - Kiro AI助手的核心功能和特性
-- **响应风格** - 沟通风格和交互指南
-- **工作流模式** - 执行方法和最佳实践
-- **质量标准** - 代码质量和输出标准
+### 🔧 System Documentation
+- System Capabilities – Core functions and features of the Kiro AI Assistant
+- Response Style – Communication style and interaction guide
+- Workflow Patterns – Execution methods and best practices
+- Quality Standards – Code quality and output standards
 
-### 📋 项目指导
-- **项目标准** - 代码质量和测试要求
-- **Git工作流** - 分支策略和提交规范
-- **前端标准** - React/TypeScript开发规范
-- **API设计** - RESTful API设计标准
-- **开发环境** - 环境配置和工具设置
+### 📋 Project Guidance
+- Project Standards – Code quality and test requirements
+- Git Workflow – Branching strategies and commit conventions
+- Frontend Standards – React/TypeScript development specifications
+- API Design – RESTful API design standards
+- Development Environment – Configuration and tooling
 
-### ⚡ 命令和自动化
-- **创建指导文档** - 自动化生成项目指导文档
-- **上下文命令** - 文件、文件夹、问题等上下文获取
-- **MCP集成** - 模型上下文协议支持
+### ⚡ Commands & Automation
+- Create guide documents – Automated generation of project guidance documents
+- Context commands – Retrieval of file, folder, issue, and other context
+- MCP Integration – Model Context Protocol support
 
-## 技术栈
+## Tech Stack
 
-- **React 18** - 用户界面框架
-- **TypeScript** - 类型安全
-- **Tailwind CSS** - 样式框架
-- **React Router** - 路由管理
-- **Lucide React** - 图标库
-- **Vite** - 构建工具
+- React 18 – User interface framework
+- TypeScript – Type safety
+- Tailwind CSS – Styling framework
+- React Router – Routing management
+- Lucide React – Icon library
+- Vite – Build tool
 
-## 快速开始
+## Quick Start
 
-### 安装依赖
+### Install dependencies
 ```bash
 npm install
 ```
 
-### 启动开发服务器
+### Start development server
 ```bash
 npm run dev
 ```
+The app will launch at http://localhost:3000
 
-应用将在 http://localhost:3000 启动
-
-### 构建生产版本
+### Build for production
 ```bash
 npm run build
 ```
 
-### 预览生产版本
+### Preview production build
 ```bash
 npm run preview
 ```
 
-## 项目结构
+## Project Structure
 
 ```
 src/
-├── components/          # 可复用组件
-│   └── Layout.tsx      # 主布局组件
-├── pages/              # 页面组件
-│   ├── Home.tsx        # 首页
-│   ├── Methodology.tsx # 方法论
-│   ├── Process.tsx     # 流程指南
-│   ├── AIReasoning.tsx # AI推理
-│   ├── Prompting.tsx   # 提示策略
-│   ├── Execution.tsx   # 执行指南
-│   ├── Resources.tsx   # 资源库
-│   ├── Examples.tsx    # 示例
-│   ├── Templates.tsx   # 模板
-│   ├── SystemDocs.tsx  # 系统文档
-│   ├── SteeringDocs.tsx # 指导文档
-│   └── Commands.tsx    # 命令
-├── App.tsx             # 主应用组件
-├── main.tsx           # 应用入口
-└── index.css          # 全局样式
-```
+├── components/          # Re```ble components```  └── Layout```x      # Main```yout component```─ pages/             ```Page components```  ├── Home```x        #```me page
+│  ```─ Methodology```x # Method```gy
+│   ├──```ocess.tsx    ```Process guide```  ├── AIReason```.tsx # AI reasoning```  ├── Prompt```.tsx   # Prompt``` strategies```T License –```e LICENSE file````
 
-## 使用指南
-
-### 导航
-- 使用左侧边栏导航到不同页面
-- 移动端使用汉堡菜单访问导航
-- 每个页面都有清晰的标题和描述
-
-### 内容浏览
-- 所有内容都经过精心组织和分类
-- 使用卡片布局展示信息
-- 代码示例使用语法高亮
-- 重要信息使用颜色编码
-
-### 响应式设计
-- 完全响应式设计，支持桌面和移动设备
-- 自适应布局，在不同屏幕尺寸下都有良好体验
-- 触摸友好的移动端交互
-
-## 开发指南
-
-### 添加新页面
-1. 在 `src/pages/` 目录下创建新的页面组件
-2. 在 `src/App.tsx` 中添加路由
-3. 在 `src/components/Layout.tsx` 中添加导航项
-
-### 样式指南
-- 使用 Tailwind CSS 类名
-- 遵循现有的设计模式
-- 保持一致的间距和颜色
-
-### 组件开发
-- 使用 TypeScript 接口定义 props
-- 保持组件简单和可复用
-- 添加适当的注释和文档
-
-## 贡献
-
-欢迎贡献代码和改进建议！
-
-1. Fork 项目
-2. 创建功能分支
-3. 提交更改
-4. 推送到分支
-5. 创建 Pull Request
-
-## 许可证
-
-MIT License - 详见 LICENSE 文件 
+[1](https://github.com/jasonkneen/kiro/edit/main/kiro-web-app/README.md)
