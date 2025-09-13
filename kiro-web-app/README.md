@@ -68,8 +68,15 @@ npm run preview
 
 ```
 src/
-├── components/          # Re```ble components```  └── Layout```x      # Main```yout component```─ pages/             ```Page components```  ├── Home```x        #```me page
-│  ```─ Methodology```x # Method```gy
-│   ├──```ocess.tsx    ```Process guide```  ├── AIReason```.tsx # AI reasoning```  ├── Prompt```.tsx   # Prompt``` strategies```T License –```e LICENSE file````
+├── components/          # Reusable components
+│   └── Layout.tsx      # Main layout component
+├── pages/              # Page components
+│   ├── Home.tsx        # Home page
+│   ├── Methodology.tsx # Methodology
+│   ├── Process.tsx     # Process guide
+│   ├── AIReasoning.tsx # AI reasoning
+│   ├── Prompting.tsx   # Prompting strategies
+MIT License – See LICENSE file
+
 
 [1](https://github.com/jasonkneen/kiro/edit/main/kiro-web-app/README.md)
