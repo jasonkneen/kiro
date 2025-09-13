@@ -76,7 +76,7 @@ src/
 │   ├── Process.tsx     # Process guide
 │   ├── AIReasoning.tsx # AI reasoning
 │   ├── Prompting.tsx   # Prompting strategies
+
+```
+
 MIT License – See LICENSE file
-
-
-[1](https://github.com/jasonkneen/kiro/edit/main/kiro-web-app/README.md)
