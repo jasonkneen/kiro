@@ -112,6 +112,46 @@ New to spec-driven development? Start here:
 
 ---
 
+## 🔌 Kiro MCP Server
+
+The Kiro MCP Server exposes Kiro's system prompts and instructions through the Model Context Protocol (MCP), allowing other AI assistants and tools to access Kiro's best practices.
+
+### Features
+
+- **Resources**: Access all Kiro system documentation files via MCP resources
+- **Tools**: Query and retrieve specific system instructions programmatically
+- **Prompts**: Pre-configured prompts for common Kiro workflows
+
+### Quick Start
+
+Install and configure the MCP server:
+
+```bash
+# Using uvx (recommended)
+uvx kiro-mcp-server
+
+# Or install with pip
+pip install kiro-mcp-server
+```
+
+Add to your MCP client configuration (e.g., `~/.kiro/settings/mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "kiro-prompts": {
+      "command": "uvx",
+      "args": ["kiro-mcp-server"],
+      "disabled": false
+    }
+  }
+}
+```
+
+For more details, see the [MCP Server Documentation](mcp-server/README.md).
+
+---
+
 *This guide is designed to be both a learning resource and a reference manual. Jump to any section based on your current needs, or read through sequentially for comprehensive understanding.*
 
 **📍 For detailed navigation by role, problem, or learning style, see the [Complete Navigation Index](spec-process-guide/NAVIGATION.md)**
