@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "kiro-prompts": {
+      "command": "uvx",
+      "args": ["kiro-mcp-server"],
+      "disabled": false,
+      "autoApprove": ["list_instructions", "get_system_instruction"],
+      "description": "Access Kiro's system prompts and instructions"
+    }
+  }
+}
