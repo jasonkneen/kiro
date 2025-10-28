@@ -7,6 +7,11 @@ A comprehensive guide to systematic feature development using the three-phase sp
 <!-- Topics: methodology, process, templates, examples, best practices -->
 <!-- Audience: developers, project managers, technical leads -->
 
+## Used by
+
+- [@kazini](https://github.com/kazini) in their spec kit https://github.com/kazini/yask-spec-kit
+- Amazon in internal presentations: _"It’s the best stuff I have found on [spec driven development]. I will be sharing links back to your repo with full attribution."_
+
 ## 🧭 Navigation Guide
 
 **New to spec-driven development?** → Start with [Methodology Overview](spec-process-guide/methodology/README.md)  
