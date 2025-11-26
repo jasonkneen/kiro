@@ -19,9 +19,11 @@ Real-world case studies and complete spec examples showing the methodology in ac
 ## In This Section
 
 - **[Simple Feature Specs](simple-feature-spec.md)** - Complete examples for basic features
-- **[Complex System Specs](complex-system-spec.md)** - Large-scale system development examples  
+- **[Complex System Specs](complex-system-spec.md)** - Large-scale system development examples
 - **[Case Studies](case-studies.md)** - Success stories and lessons learned
 - **[Troubleshooting & Pitfalls](troubleshooting-pitfalls.md)** - Common mistakes and recovery strategies
+- **[Lightweight Examples](lightweight-examples.md)** - Micro and quick spec examples for smaller changes
+- **[Spec Upgrade Examples](spec-upgrade-examples.md)** - When and how to upgrade from lightweight specs
 
 ## Learning from Examples
 
