@@ -157,6 +157,40 @@ For more details, see the [MCP Server Documentation](mcp-server/README.md).
 
 ---
 
+## 🎯 Claude Code Skills
+
+Kiro methodology is also available as installable skills for Claude Code and other AI assistants following the [agentskills.io](https://agentskills.io) specification.
+
+### Available Skills
+
+| Skill | Description |
+|-------|-------------|
+| [spec-driven-development](skills/spec-driven-development/) | Master methodology combining all three phases |
+| [requirements-engineering](skills/requirements-engineering/) | EARS format requirements and acceptance criteria |
+| [design-documentation](skills/design-documentation/) | Technical architecture and component design |
+| [task-breakdown](skills/task-breakdown/) | Sequenced implementation task planning |
+| [ai-prompting](skills/ai-prompting/) | Effective AI communication strategies |
+| [quality-assurance](skills/quality-assurance/) | Testing and validation techniques |
+| [troubleshooting](skills/troubleshooting/) | Diagnosing and resolving common issues |
+
+### Quick Install
+
+```bash
+# Clone and reference skills
+git clone https://github.com/jasonkneen/kiro.git
+# Skills are in the /skills directory
+```
+
+### Validate Skills
+
+```bash
+./scripts/validate-skills.sh
+```
+
+For more details, see the [Skills Documentation](skills/README.md).
+
+---
+
 *This guide is designed to be both a learning resource and a reference manual. Jump to any section based on your current needs, or read through sequentially for comprehensive understanding.*
 
 **📍 For detailed navigation by role, problem, or learning style, see the [Complete Navigation Index](spec-process-guide/NAVIGATION.md)**
