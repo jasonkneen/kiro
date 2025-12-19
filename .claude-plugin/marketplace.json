@@ -1,0 +1,14 @@
+{
+  "name": "kiro-marketplace",
+  "owner": {
+    "name": "Jason Kneen",
+    "url": "https://github.com/jasonkneen"
+  },
+  "plugins": [
+    {
+      "name": "kiro-spec-driven",
+      "source": ".",
+      "description": "Spec-driven development methodology with skills for requirements, design, tasks, AI prompting, QA, and troubleshooting"
+    }
+  ]
+}

@@ -157,28 +157,40 @@ For more details, see the [MCP Server Documentation](mcp-server/README.md).
 
 ---
 
-## 🎯 Claude Code Skills
+## 🎯 Claude Code Plugin
 
-Kiro methodology is also available as installable skills for Claude Code and other AI assistants following the [agentskills.io](https://agentskills.io) specification.
-
-### Available Skills
-
-| Skill | Description |
-|-------|-------------|
-| [spec-driven-development](skills/spec-driven-development/) | Master methodology combining all three phases |
-| [requirements-engineering](skills/requirements-engineering/) | EARS format requirements and acceptance criteria |
-| [design-documentation](skills/design-documentation/) | Technical architecture and component design |
-| [task-breakdown](skills/task-breakdown/) | Sequenced implementation task planning |
-| [ai-prompting](skills/ai-prompting/) | Effective AI communication strategies |
-| [quality-assurance](skills/quality-assurance/) | Testing and validation techniques |
-| [troubleshooting](skills/troubleshooting/) | Diagnosing and resolving common issues |
+Kiro is available as an installable Claude Code plugin with 7 skills following the [agentskills.io](https://agentskills.io) specification.
 
 ### Quick Install
 
 ```bash
-# Clone and reference skills
-git clone https://github.com/jasonkneen/kiro.git
-# Skills are in the /skills directory
+# In Claude Code
+/plugin marketplace add https://github.com/jasonkneen/kiro
+/plugin install kiro-spec-driven@kiro-marketplace
+```
+
+### Available Skills
+
+Once installed, Claude automatically uses these skills when relevant:
+
+| Skill | Description | Use When |
+|-------|-------------|----------|
+| [spec-driven-development](skills/spec-driven-development/) | Master methodology | "create a spec for..." |
+| [requirements-engineering](skills/requirements-engineering/) | EARS format | "write requirements for..." |
+| [design-documentation](skills/design-documentation/) | Technical architecture | "design the architecture..." |
+| [task-breakdown](skills/task-breakdown/) | Implementation planning | "break down into tasks..." |
+| [ai-prompting](skills/ai-prompting/) | AI communication | "how to prompt better..." |
+| [quality-assurance](skills/quality-assurance/) | Testing strategies | "testing strategy for..." |
+| [troubleshooting](skills/troubleshooting/) | Problem resolution | "debug this issue..." |
+
+### Installation Options
+
+```bash
+# User scope (available everywhere)
+/plugin install kiro-spec-driven@kiro-marketplace
+
+# Project scope (shared via git)
+/plugin install kiro-spec-driven@kiro-marketplace --scope project
 ```
 
 ### Validate Skills
@@ -187,7 +199,7 @@ git clone https://github.com/jasonkneen/kiro.git
 ./scripts/validate-skills.sh
 ```
 
-For more details, see the [Skills Documentation](skills/README.md).
+For more details, see the [Plugin Documentation](PLUGIN.md) and [Skills Documentation](skills/README.md).
 
 ---
 
