@@ -13,6 +13,7 @@ A collection of Claude Code skills following the [agentskills.io](https://agents
 | [ai-prompting](./ai-prompting/) | Effective AI communication strategies | Beginner |
 | [quality-assurance](./quality-assurance/) | Testing and validation techniques | Intermediate |
 | [troubleshooting](./troubleshooting/) | Diagnosing and resolving common issues | Intermediate |
+| [create-steering-documents](./create-steering-documents/) | Generate .kiro/steering/ project guidelines | Intermediate |
 
 ## Installation
 

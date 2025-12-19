@@ -50,6 +50,7 @@ Once installed, Claude will automatically use these skills when relevant:
 | **ai-prompting** | AI communication strategies | "prompt better", "AI communication", "improve prompts" |
 | **quality-assurance** | Testing and validation | "quality", "testing strategy", "validation" |
 | **troubleshooting** | Problem resolution | "debug", "troubleshoot", "issue with" |
+| **create-steering-documents** | Project guidelines setup | "steering documents", "project standards", "setup guidelines" |
 
 ## Usage Examples
 
