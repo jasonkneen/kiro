@@ -1,5 +1,8 @@
 # Spec-Driven Development Guide
 
+[![Run in Smithery](https://smithery.ai/badge/skills/jasonkneen)](https://smithery.ai/skills?ns=jasonkneen&utm_source=github&utm_medium=badge)
+
+
 A comprehensive guide to systematic feature development using the three-phase spec process: Requirements → Design → Tasks.
 
 <!-- Navigation Metadata -->
