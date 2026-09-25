@@ -74,6 +74,8 @@ Real-world case studies and complete spec examples
 - [Troubleshooting & Pitfalls](spec-process-guide/examples/troubleshooting-pitfalls.md) - Common mistakes and recovery strategies
 
 ### 📝 [Templates](spec-process-guide/templates/README.md)
+
+- [MySpec](https://myspec.dev) — Interactive spec discovery platform generating structured 4-file specification bundles (`constitution.md`, `requirements.md`, `solution.md`, `tasks.md`) consumable by AI coding assistants via MCP.
 Ready-to-use templates and checklists
 - [Requirements Template](spec-process-guide/templates/requirements-template.md) - EARS-formatted requirements
 - [Design Template](spec-process-guide/templates/design-template.md) - Comprehensive design structure
